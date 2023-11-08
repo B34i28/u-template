@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <div className='md:mt-[25rem] mt-[51rem] lg:mt-[30rem] xl:mt-[38rem] xl:w-[1920px] h-[771px]'>
+    <div className='md:mt-[25rem] mt-[51rem] lg:mt-[30rem] xl:mt-[38rem] xl:w-auto h-[771px]'>
         <div className='flex flex-col lg:flex-row bg-[#003087] justify-around px-4 border-b-[1px] border-[#FFFFFF] '>
 
             <div className='py-14'>
@@ -65,7 +65,7 @@ export default function Footer() {
         </div>
 
 
-        <div className='bg-[#003087] xl:w-[1920px] xl:py-8 lg:py-4 flex justify-center'>
+        <div className='bg-[#003087] xl:w-auto xl:py-8 lg:py-4 flex justify-center'>
             <p className='text-[#FFFFFF] text-lg'>Copyright 2023 Endrobil.no. All rights reserved</p>
         </div>
     </div>

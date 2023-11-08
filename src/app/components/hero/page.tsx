@@ -7,7 +7,7 @@ import { ChevronDown, ChevronUp, Euro } from 'lucide-react'
 export default function Hero() {
   return (
     <div className='relative'>
-        <div className='xl:w-[1920px] w-auto h-[496px] '>
+        <div className='xl:w-auto w-auto h-[496px] '>
             <Image src={Carimg} alt='Car Image' />
         </div>
 
