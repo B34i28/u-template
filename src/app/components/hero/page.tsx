@@ -11,7 +11,7 @@ export default function Hero() {
             <Image src={Carimg} alt='Car Image' />
         </div>
 
-        <div className='flex md:w-[750px] w-[380px] top-28 lg:top-36 lg:left-6 absolute lg:pl-10 xl:pl-10 flex-col border-4 pb-32 lg:w-[992px] rounded-lg justify-center xl:w-[1160px] xl:h-[698] xl:top-[21rem] xl:left-[320px] bg-[#FFFFFF] shadow-[#4E4E4E] '>
+        <div className='flex md:w-[695px] w-[380px] top-28 lg:top-36 lg:left-6 absolute lg:pl-10 xl:pl-10 flex-col border-4 pb-32 lg:w-[992px] rounded-lg justify-center xl:w-[1160px] xl:h-[698] xl:top-[21rem] xl:left-[320px] bg-[#FFFFFF] shadow-[#4E4E4E] '>
             <div className='md:w-auto w-[330px] lg:w-[945px] xl:w-[1073px] bg-gray-200 xl:h-[48px]'>
                 <Image src={Heroicons} alt='Hero Icons' />
             </div>
@@ -62,12 +62,12 @@ export default function Hero() {
 
                     <div className='lg:w-60 xl:w-[260px] xl:h-[84px] rounded-[8px]  stroke-[#B8B8B8] text-[#444444] '>
                         <h1 className='lg:text-lg text-lg xl:text-lg font-semibold text-[#1E1E1E] '>Numbers of doors</h1>
-                        <p className='mt-7 lg:mt-1 xl:w-[260px] lg:h-[44px] xl:h-[52px] flex items-center pl-3 rounded-[8px] border-[1px] md:w-40 w-40 h-11 text-[#444444] stroke-[#B8B8B8] justify-between'>4 <ChevronDown /></p>
+                        <p className='mt-7 md:mt-2 lg:mt-1 xl:w-[260px] lg:h-[44px] xl:h-[52px] flex items-center pl-3 rounded-[8px] border-[1px] md:w-32 w-40 h-11 text-[#444444] stroke-[#B8B8B8] justify-between'>4 <ChevronDown /></p>
                     </div>
 
                     <div className='lg:w-60 xl:w-[260px] xl:h-[84px] rounded-[8px]  stroke-[#B8B8B8] text-[#444444] '>
                         <h1 className='text-lg font-semibold text-[#1E1E1E] '>Type and condition</h1>
-                        <p className='mt-1 md:mt-7 xl:w-[260px] lg:h-[44px] xl:h-[52px] flex items-center pl-3 rounded-[8px] border-[1px] md:w-40 w-40 h-11 text-[#444444] stroke-[#B8B8B8] justify-between'>Any <ChevronDown /></p>
+                        <p className='mt-1 md:mt-2 xl:w-[260px] lg:h-[44px] xl:h-[52px] flex items-center pl-3 rounded-[8px] border-[1px] md:w-32 w-40 h-11 text-[#444444] stroke-[#B8B8B8] justify-between'>Any <ChevronDown /></p>
                     </div>
 
                     <div className=' lg:w-60 xl:w-[260px] xl:h-[84px] rounded-[8px]  stroke-[#B8B8B8] text-[#444444] '>
@@ -99,12 +99,12 @@ export default function Hero() {
 
                     <div className='lg:w-60 xl:w-[260px] xl:h-[84px] rounded-[8px]  stroke-[#B8B8B8] text-[#444444] '>
                         <h1 className='text-lg lg:w-44 font-semibold text-[#1E1E1E] '>Origin of the vehicle</h1>
-                        <p className='mt-1 xl:w-[260px]  w-40 h-11 lg:h-[44px] xl:h-[52px] flex items-center pl-3 rounded-[8px] border-[1px] text-[#444444] stroke-[#B8B8B8] justify-between'>Home plates<ChevronDown /></p>
+                        <p className='mt-1 xl:w-[260px] md:w-32  w-40 h-11 lg:h-[44px] xl:h-[52px] flex items-center pl-3 rounded-[8px] border-[1px] text-[#444444] stroke-[#B8B8B8] justify-between'>Home plates<ChevronDown /></p>
                     </div>
 
                     <div className='lg:w-60 xl:w-[260px] xl:h-[84px] rounded-[8px]  stroke-[#B8B8B8] text-[#444444] '>
                         <h1 className='text-lg font-semibold text-[#1E1E1E] '>Ownership</h1>
-                        <p className='lg:mt-1 xl:mt-1 mt-8 xl:w-[260px] lg:h-[44px] w-40 h-11 lg:w-[165px] xl:h-[52px] flex items-center pl-3 rounded-[8px] border-[1px] text-[#444444] stroke-[#B8B8B8] justify-end'> <ChevronDown /></p>
+                        <p className='lg:mt-1 xl:mt-1 mt-8 xl:w-[260px] lg:h-[44px] md:w-32 w-40 h-11 lg:w-[165px] xl:h-[52px] flex items-center pl-3 rounded-[8px] border-[1px] text-[#444444] stroke-[#B8B8B8] justify-end'> <ChevronDown /></p>
                     </div>
 
 
