@@ -11,7 +11,7 @@ export default function Hero() {
             <Image src={Carimg} alt='Car Image' />
         </div>
 
-        <div className='flex md:w-[750px] w-[350px] top-28 lg:top-36 lg:left-6 absolute lg:pl-10 xl:pl-10 flex-col border-4 pb-32 lg:w-[992px] rounded-lg justify-center xl:w-[1160px] xl:h-[698] xl:top-[21rem] xl:left-[320px] bg-[#FFFFFF] shadow-[#4E4E4E] '>
+        <div className='flex md:w-[750px] w-[380px] top-28 lg:top-36 lg:left-6 absolute lg:pl-10 xl:pl-10 flex-col border-4 pb-32 lg:w-[992px] rounded-lg justify-center xl:w-[1160px] xl:h-[698] xl:top-[21rem] xl:left-[320px] bg-[#FFFFFF] shadow-[#4E4E4E] '>
             <div className='md:w-auto w-[330px] lg:w-[945px] xl:w-[1073px] bg-gray-200 xl:h-[48px]'>
                 <Image src={Heroicons} alt='Hero Icons' />
             </div>
