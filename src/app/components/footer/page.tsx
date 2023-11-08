@@ -6,13 +6,13 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <div className='mt-[51rem] lg:mt-[30rem] xl:mt-[38rem] xl:w-[1920px] h-[771px]'>
+    <div className='md:mt-[25rem] mt-[51rem] lg:mt-[30rem] xl:mt-[38rem] xl:w-[1920px] h-[771px]'>
         <div className='flex flex-col lg:flex-row bg-[#003087] justify-around px-4 border-b-[1px] border-[#FFFFFF] '>
 
             <div className='py-14'>
                 <h1 className='text-[#FFFFFF] xl:w-[472px] xl:h-[82px] text-3xl font-medium '>The most wanted makes and models</h1>
                 
-                <div className='w-[300px] lg:w-[470px] h-[215px] grid grid-cols-1 lg:grid-cols-2 rounded-[8px] gap-4 mt-8'>
+                <div className='md:w-[550px] w-[300px] lg:w-[470px] h-[215px] md:grid md:grid-cols-2 grid grid-cols-1 lg:grid-cols-2 rounded-[8px] gap-4 mt-8'>
                     <button className='text-[#FFFFFF] rounded-lg bg-blue-800 h-[27] py-2 px-4 flex justify-center items-center text-xl '>Audi A4</button>
                     <button className='text-[#FFFFFF] rounded-lg  bg-blue-800 h-[27] py-2 px-4 flex justify-center items-center text-xl '>Volkswagen</button>
                     <button className='text-[#FFFFFF] rounded-lg bg-blue-800 h-[27] py-2 px-4 flex justify-center items-center text-xl '>Sakoka Octavia</button>
@@ -49,7 +49,7 @@ export default function Footer() {
 
 
             <div className='py-14 '>
-                <h1 className='text-[#FFFFFF] flex justify-start lg:justify-end md:justify-end xl:justify-end  text-3xl font-medium'>Let's connect</h1>
+                <h1 className='text-[#FFFFFF] flex justify-start lg:justify-end md:justify-start xl:justify-end  text-3xl font-medium'>Let's connect</h1>
                 <div className='flex space-x-4 py-12'>
                     <Facebook className='bg-[#FFFFFF] rounded-full p-1' size={40} />
                     <Instagram className='bg-[#FFFFFF] rounded-full p-1' size={40} />
