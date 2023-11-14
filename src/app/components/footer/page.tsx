@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <div className='lg:mt-[31rem] sm:w-[640px] xl:w-[1280px] md:w-[768px] lg:w-[1024px] h-[771px]'>
+    <div className='lg:mt-[31rem] mt-7 sm:w-[640px] xl:w-[1280px] md:w-[768px] lg:w-[1024px] h-[771px]'>
         <div className='flex flex-col lg:flex-row bg-[#003087] justify-around px-4 border-b-[1px] border-[#FFFFFF] '>
 
             <div className='py-14'>
