@@ -1,5 +1,4 @@
 import Hbox from "./components/Hbox/page";
-import Hero from "./components/hero/page";
 import Himg from "./components/himg/page";
 
 

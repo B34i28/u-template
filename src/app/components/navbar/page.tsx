@@ -1,8 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import { Bell } from 'lucide-react';
-import { Star } from 'lucide-react';
-import { MessageSquare } from 'lucide-react';
 import Img2 from '../../../../public/img2.png'
 import Logo from '../../../../public/logo.png'
 import Image from "next/image";
