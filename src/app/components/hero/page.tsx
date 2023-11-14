@@ -6,12 +6,12 @@ import { ChevronDown, ChevronUp, Euro } from 'lucide-react'
 
 export default function Hero() {
   return (
-    <div className='relative xl:w-auto overflow-visible mx-auto'>
-        <div className='w-auto h-[496px] '>
+    <div className='relative sm:w-[640px] xl:w-[1280px] md:w-[768px] lg:w-[1024px] overflow-visible'>
+        <div className=''>
             <Image src={Carimg} alt='Car Image' />
         </div>
 
-        <div className='xl:top-[21rem] xl:left-[320px] absolute flex md:w-[695px] w-[380px] top-28 lg:top-36 lg:left-6 lg:pl-10 xl:pl-10 flex-col border-4 pb-32 lg:w-[992px] rounded-lg justify-center xl:w-[1160px] xl:h-[698]  bg-[#FFFFFF] shadow-[#4E4E4E] '>
+        <div className='xl:top-[21rem] xl:left-[320px] absolute flex md:w-[695px] w-[380px] top-28 lg:top-36 lg:left-6 lg:pl-10 xl:pl-10 flex-col border-4 pb-32 lg:w-[1024px] rounded-lg justify-center xl:w-[1160px] xl:h-[698]  bg-[#FFFFFF] shadow-[#4E4E4E] '>
             <div className='md:w-auto w-[330px] lg:w-[945px] xl:w-[1073px] bg-gray-200 xl:h-[48px]'>
                 <Image src={Heroicons} alt='Hero Icons' />
             </div>

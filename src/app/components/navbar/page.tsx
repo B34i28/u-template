@@ -8,7 +8,7 @@ import Logo from '../../../../public/logo.png'
 import Image from "next/image";
 function Navbar() {
   return (
-    <div className="flex justify-around xl:w-auto items-center xl:h-[96px] top-[-3689px] left-[-434px] bg-[#FFFFFF] shadow-[#4E4E4E]">
+    <div className="flex  justify-around sm:w-[640px] xl:w-[1280px] md:w-[768px] lg:w-[1024px] items-center xl:h-[96px]  bg-[#FFFFFF] shadow-[#4E4E4E]">
         <div className="hidden xl:block lg:block md:block">
             <Image src={Logo} alt="Logo img" />
         </div>
