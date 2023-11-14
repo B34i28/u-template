@@ -5,8 +5,8 @@ import { ChevronDown, ChevronUp, Euro } from 'lucide-react'
 
 export default function Hbox() {
   return (
-    <div className='bg-slate-200  border-[1px] rounded-[8px] shadow-[#4E4E4E] border-[#FFFFFF] w-[280px]'>
-      <Image src={Icons} alt='' />
+    <div className='bg-slate-200  border-[1px] rounded-[8px] shadow-[#4E4E4E] border-[#FFFFFF] sm:w-[640px] '>
+      <Image src={Icons} alt='icons' />
 
       <div className='grid grid-cols-2 space-y-2 py-3'>
         <p className='mt-2 flex justify-between text-[#444444] stroke-[#B8B8B8] rounded-[8px] border-[1px] items-center w-32 h-9 bg-white'>Make <ChevronDown /></p>
